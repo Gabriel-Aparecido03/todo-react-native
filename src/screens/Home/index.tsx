@@ -13,7 +13,7 @@ interface TaskInteface {
 }
 
 export function Home() {
-
+ 
   const [ tasks,setTasks ] = useState<TaskInteface[]>([])
 
   function addTask(title:string) {
